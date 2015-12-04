@@ -1,5 +1,5 @@
 '''
-This script checks URL validity for a file, whose links are behind login wall.
+This script checks validity of URLs in a file, where said links require login.
 Takes markdown file containing text + links.
 Creates a bad_urls.txt file with all invalid URLs.
 '''
@@ -13,7 +13,7 @@ import sys
 class CheckURLS:
 
     def __init__(self, file_with_links, base_url, user, password):
-        '''Reads file and creates list of URLs
+        '''Reads file and creates list of URLs.
         Prints number of URLs'''
 
         self.base_url = base_url
