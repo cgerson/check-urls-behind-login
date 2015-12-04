@@ -1,5 +1,5 @@
 '''
-This script checks validity of URLs in a file, where said links require login at one domain.
+This script checks validity of URLs in a given file, where said links require login at one domain.
 Takes markdown file containing text + links.
 Creates a bad_urls.txt file with all invalid URLs.
 '''
