@@ -78,8 +78,8 @@ class CheckURLS:
 
         try:
             response = br.open(url)
-            response.info()
-            return "good"
+            info = response.info()
+            return info
         except:
             return "bad"
 
